@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suffer</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #main-text {
+            font-size: 48px;
+            margin: 10px auto;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            color: white;
+        }
+        .link {
+            font-size: 24px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s;
+        }
+        .link:hover {
+            transform: translateY(-3px);
+        }
+        .icon {
+            font-size: 16px;
+            margin-right: 10px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+        .icon:hover {
+            transform: translateY(-3px);
+        }
+        #top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+        }
+        #top-right a:nth-child(1) {
+            margin-right: 10px;
+        }
+        #top-right a:nth-child(2) {
+            margin-right: 10px;
+        }
+        #twitch-logo {
+            width: 32px; /* Set the desired size for the Twitch logo */
+            height: 32px;
+            margin-right: 10px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+        #twitch-logo:hover {
+            transform: translateY(-3px);
+        }
+        #copyright {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 14px;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: white;
+        }
+        #copyright:hover {
+            transform: translateY(-3px);
+        }
+        #centered-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-right">
+        <a href="https://discord.gg/Md5bBHXzce" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1123113366089642044/1155187447513227274/discord_logo_1_1.png" alt="Discord Logo" class="icon">
+        </a>
+        <a href="https://www.twitter.com/__swhp" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1123113366089642044/1155187156059430992/twitter_1.png" alt="Twitter Logo" class="icon">
+        </a>
+        <a href="https://www.twitch.tv/sawheal" target="_blank">
+            <img id="twitch-logo" src="https://cdn.discordapp.com/attachments/1123113366089642044/1155342976495661088/11_1.png" alt="Twitch Logo">
+        </a>
+    </div>
+    <div id="centered-text">
+        <div id="main-text">suffer</div>
+        <a class="link" href="https://discord.com/api/oauth2/authorize?client_id=1124086820838322359&permissions=8&scope=bot" target="_blank">Invite</a>
+        <a class="link" href="https://example.com/COMINGSOON!" target="_blank">Commands</a>
+        <a class="link" href="https://discord.gg/Md5bBHXzce" target="_blank">Discord</a>
+        <a class="link" href="https://pastebin.com/raw/FLv9uKjL" target="_blank">About Developer</a>
+    </div>
+    <a id="copyright" href="https://pastebin.com/raw/3bgJDg5s" target="_blank">
+        Copyright © suffer.<br>
+        All rights reserved.
+    </a>
+</body>
+</html>
